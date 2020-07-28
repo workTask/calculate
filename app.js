@@ -4,8 +4,6 @@ const routes = require('./routes/routes')
 require('dotenv').config();
 const app = express();
 const port = process.env.PORT;
-
-
 //middleware
 // for form in html
 app.use(bodyParser.urlencoded({extended: true}))
